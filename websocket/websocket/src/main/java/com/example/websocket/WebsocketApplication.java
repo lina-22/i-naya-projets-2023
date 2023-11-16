@@ -1,14 +1,14 @@
-package org.springframework.boot.springbootstarterwebsocket;
+package com.example.websocket;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootStarterWebsocketApplication {
+public class WebsocketApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootStarterWebsocketApplication.class, args);
 
+		SpringApplication.run(WebsocketApplication.class, args);
 		System.out.println("hello world");
 	}
 
