@@ -8,6 +8,8 @@ public class SpringBootStarterWebsocketApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootStarterWebsocketApplication.class, args);
+
+		System.out.println("hello world");
 	}
 
 }
