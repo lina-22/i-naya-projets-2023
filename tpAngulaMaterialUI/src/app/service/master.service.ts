@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { colorentity } from '../Entity/colorentity';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-// import { Country, Customer } from '../Model/Customer';
+import { Country, Customer } from '../Model/Customer';
 
 @Injectable({
   providedIn: 'root',
@@ -20,9 +20,9 @@ export class MasterService {
     ];
   }
 
-  // GetCustomer(): Observable<Customer[]> {
-  //   return this.http.get<Customer[]>('http://localhost:3000/customer');
-  // }
+  GetCustomer(): Observable<Customer[]> {
+    return this.http.get<Customer[]>('http://localhost:3000/customer');
+  }
 
   Savecustomer(data: any) {
     console.log(data);
@@ -39,9 +39,9 @@ export class MasterService {
   GetAssociatebycode(code: any) {
     return this.http.get('http://localhost:3000/associate/' + code);
   }
-  // GetCountry(): Observable<Country[]> {
-  //   return this.http.get<Country[]>('http://localhost:3000/country');
-  // }
+  GetCountry(): Observable<Country[]> {
+    return this.http.get<Country[]>('http://localhost:3000/country');
+  }
 
   SaveAssociate(data: any, code: any) {
     return this.http.put('http://localhost:3000/associate/' + code, data);
