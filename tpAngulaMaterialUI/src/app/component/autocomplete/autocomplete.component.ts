@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { map, Observable, startWith } from 'rxjs';
-import { colorentity } from 'src/app/Entity/colorentity';
-import { MasterService } from 'src/app/service/master.service';
+import { colorentity } from '../../../../src/app/Entity/colorentity';
+import { MasterService } from '../../../../src/app/service/master.service';
 
 @Component({
   selector: 'app-autocomplete',
