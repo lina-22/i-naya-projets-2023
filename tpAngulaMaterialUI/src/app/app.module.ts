@@ -11,6 +11,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MenubarComponent } from './component/menubar/menubar.component';
 import { HomeComponent } from './component/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AssociateComponent } from './component/associate/associate.component';
+import { CardComponent } from './component/card/card.component';
+import { FormdesignComponent } from './component/formdesign/formdesign.component';
+import { PopupComponent } from './component/popup/popup.component';
+import { TableComponent } from './component/table/table.component';
+import { SliderComponent } from './component/slider/slider.component';
+import { UserdetailComponent } from './component/userdetail/userdetail.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +26,13 @@ import { HttpClientModule } from '@angular/common/http';
     AutocompleteComponent,
     MenubarComponent,
     HomeComponent,
+    AssociateComponent,
+    CardComponent,
+    FormdesignComponent,
+    PopupComponent,
+    TableComponent,
+    SliderComponent,
+    UserdetailComponent,
   ],
   imports: [
     BrowserModule,
