@@ -3,8 +3,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
-import { Customer } from 'src/app/Model/Customer';
-import { MasterService } from 'src/app/service/master.service';
+import { Customer } from '../../../../src/app/Model/Customer';
+import { MasterService } from '../../../../src/app/service/master.service';
 import { PopupComponent } from '../popup/popup.component';
 import { UserdetailComponent } from '../userdetail/userdetail.component';
 
