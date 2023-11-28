@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2727de1a-f0ad-42c8-91b5-ad88b9bb282f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/entity/TeamEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/service/TeamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/entity/TeamEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/entity/TeamEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/repository/TeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/repository/TeamRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,7 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Workload/i-naya-projets-2023/tp-teams-handling-api"
+    "last_opened_file_path": "D:/Workload/java2023/JavaProjet/BdSpringBoot23"
   }
 }]]></component>
   <component name="RunManager">
