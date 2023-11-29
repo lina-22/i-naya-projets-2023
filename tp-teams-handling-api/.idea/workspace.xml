@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2727de1a-f0ad-42c8-91b5-ad88b9bb282f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/test/java/TeamServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/dto/TeamDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/test/java/TeamServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/test/java/TeamServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,24 +30,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2YoRNaQwZncsqR4tQMMFTUnVWGG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Workload/java2023/JavaProjet/BdSpringBoot23"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workload/java2023/JavaProjet/BdSpringBoot23&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TpTeamsHandlingApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.sorbonne.paris.nord.university.tpteamshandlingapi.TpTeamsHandlingApiApplication" />
