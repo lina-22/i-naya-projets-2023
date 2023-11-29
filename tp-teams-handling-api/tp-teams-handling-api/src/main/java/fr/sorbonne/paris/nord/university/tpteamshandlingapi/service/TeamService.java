@@ -25,7 +25,7 @@ public class TeamService {
         return teamRepository.findAll();
     }
 
-    public Optional<TeamEntity>findById(Long id){
+    public Optional<TeamEntity>findById(int id){
         return teamRepository.findById(id);
     }
 
@@ -33,7 +33,7 @@ public class TeamService {
         return teamRepository.save(teamEntity);
     }
 
-    public void delete(Long id) {
+    public void delete(int id) {
         Optional<TeamEntity> teamEntity = teamRepository.findById(id);
         if (teamEntity.isPresent()) {
             teamRepository.delete(teamEntity.get());

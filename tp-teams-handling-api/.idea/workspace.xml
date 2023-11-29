@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2727de1a-f0ad-42c8-91b5-ad88b9bb282f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/dto/TeamDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/test/java/TeamServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/test/java/TeamServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/TpTeamsHandlingApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/TpTeamsHandlingApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/controller/TeamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/controller/TeamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/dto/TeamDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/dto/TeamDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/entity/TeamEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/entity/TeamEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/repository/TeamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/repository/TeamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/service/TeamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/service/TeamService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,5 +82,16 @@
       <updated>1701189906287</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/controller/TeamController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
