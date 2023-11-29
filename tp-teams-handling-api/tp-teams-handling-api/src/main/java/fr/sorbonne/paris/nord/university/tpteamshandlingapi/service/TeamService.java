@@ -16,6 +16,31 @@ public class TeamService {
      *
      * @param teamRepository
      */
+//    @Autowired
+//    public TeamService(TeamRepository teamRepository) {
+//        this.teamRepository = teamRepository;
+//    }
+//
+//    public List<TeamEntity>getAllTeam(){
+//        return teamRepository.findAll();
+//    }
+//
+//    public Optional<TeamEntity>findById(int id){
+//        return teamRepository.findById(id);
+//    }
+//
+//    public TeamEntity insert(TeamEntity teamEntity){
+//        return teamRepository.save(teamEntity);
+//    }
+//
+//    public void delete(int id) {
+//        Optional<TeamEntity> teamEntity = teamRepository.findById(id);
+//        if (teamEntity.isPresent()) {
+//            teamRepository.delete(teamEntity.get());
+//        } else {
+//            System.out.println("Team entity not found with Id : " + id);
+//        }
+
     @Autowired
     public TeamService(TeamRepository teamRepository) {
         this.teamRepository = teamRepository;
@@ -25,7 +50,7 @@ public class TeamService {
         return teamRepository.findAll();
     }
 
-    public Optional<TeamEntity>findById(int id){
+    public Optional<TeamEntity>findById(Long id){
         return teamRepository.findById(id);
     }
 
@@ -33,7 +58,7 @@ public class TeamService {
         return teamRepository.save(teamEntity);
     }
 
-    public void delete(int id) {
+    public void delete(Long id) {
         Optional<TeamEntity> teamEntity = teamRepository.findById(id);
         if (teamEntity.isPresent()) {
             teamRepository.delete(teamEntity.get());
