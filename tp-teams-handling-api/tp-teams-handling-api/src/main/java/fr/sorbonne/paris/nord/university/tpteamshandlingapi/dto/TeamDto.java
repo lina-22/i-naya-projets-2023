@@ -14,4 +14,13 @@ public class TeamDto {
     private Long id;
     private String name;
     private String slogan;
+
+    @Override
+    public String toString() {
+        return "TeamDto{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", slogan='" + slogan + '\'' +
+                '}';
+    }
 }

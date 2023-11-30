@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+
 @Service
 public class TeamService {
     TeamRepository teamRepository;
@@ -16,30 +17,7 @@ public class TeamService {
      *
      * @param teamRepository
      */
-//    @Autowired
-//    public TeamService(TeamRepository teamRepository) {
-//        this.teamRepository = teamRepository;
-//    }
-//
-//    public List<TeamEntity>getAllTeam(){
-//        return teamRepository.findAll();
-//    }
-//
-//    public Optional<TeamEntity>findById(int id){
-//        return teamRepository.findById(id);
-//    }
-//
-//    public TeamEntity insert(TeamEntity teamEntity){
-//        return teamRepository.save(teamEntity);
-//    }
-//
-//    public void delete(int id) {
-//        Optional<TeamEntity> teamEntity = teamRepository.findById(id);
-//        if (teamEntity.isPresent()) {
-//            teamRepository.delete(teamEntity.get());
-//        } else {
-//            System.out.println("Team entity not found with Id : " + id);
-//        }
+
 
     @Autowired
     public TeamService(TeamRepository teamRepository) {
@@ -47,7 +25,8 @@ public class TeamService {
     }
 
     public List<TeamEntity>getAllTeam(){
-        return teamRepository.findAll();
+        List<TeamEntity>teamEntityList = teamRepository.findAll();
+        return teamEntityList;
     }
 
     public Optional<TeamEntity>findById(Long id){

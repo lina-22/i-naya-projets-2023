@@ -2,10 +2,7 @@ package fr.sorbonne.paris.nord.university.tpteamshandlingapi.entity;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Entity
 @Getter
@@ -13,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name="team")
+@Data
 public class TeamEntity {
 //    id IDENTITY NOT NULL PRIMARY KEY,
 //    name VARCHAR(200),
@@ -27,5 +25,6 @@ public class TeamEntity {
 
     @Column(name="slogan", nullable = true)
     private String slogan;
+
 
 }
