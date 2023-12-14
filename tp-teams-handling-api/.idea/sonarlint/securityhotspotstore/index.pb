@@ -19,3 +19,5 @@ wtp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamsha
 €tp-teams-handling-api/src/test/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/TpTeamsHandlingApiApplicationTests.java,2\b\2b57ffc48b2f1ca3090e63c4c25b5496986d550c
 «
 {tp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/TpTeamsHandlingApiApplication.java,1\b\1befa397d622365652e765c6d3e2ffd277683a03
+§
+wtp-teams-handling-api/src/main/java/fr/sorbonne/paris/nord/university/tpteamshandlingapi/repository/TeamRepository.java,6\b\6b6faf7e18261d399adeec5c684e57a3f18bf8c0

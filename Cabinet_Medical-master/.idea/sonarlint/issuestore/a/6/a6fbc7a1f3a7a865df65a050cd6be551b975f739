@@ -1,0 +1,8 @@
+
+|
+java:S1319"fThe type of "monthData" should be an interface such as "Map" rather than the implementation "HashMap".(ÿ·À§
+ˆ
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(·®ïıÿÿÿÿ
+
+java:S1319"fThe type of "monthData" should be an interface such as "Map" rather than the implementation "HashMap".(ã…Ïùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õ§§½øÿÿÿÿ
